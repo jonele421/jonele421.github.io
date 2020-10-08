@@ -1,0 +1,29 @@
+body{
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+border: 5px;
+border-style: ridge;
+border-color: aqua;
+}
+section.body{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+img.grabb{
+width: 100%;
+
+}
+
+
+section.bilder img{
+height: auto;
+width: 48%;
+
+}
+
+section.bilder.bild{
+margin-left:10px;
+
+}
