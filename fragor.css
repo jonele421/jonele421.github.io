@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+    font-size: 1.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+    
+    
+    }
+    body{
+    width: 1000px;
+    height: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+    background: burlywood;
+    }
+    h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    }
+    
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    }
+    
+    

@@ -1,0 +1,45 @@
+body{
+background:white;
+width: 800px;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+border-width: 1px;
+border-style:solid;
+border-color: red;
+padding: 20px;
+}
+
+h1{
+color: green;
+font-weight: 100;
+font-family: arial;
+font-size: 34px;
+
+}
+
+p{
+font-family: arial;
+font-size: 14px;
+line-height: 150%;
+
+
+}
+
+img.kul{
+float: right;
+height: 200px;
+width: 200px;
+
+}
+
+h3{
+color: green;
+font-family: arial;
+
+}
+
+a{
+color: red;
+
+}
