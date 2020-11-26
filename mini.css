@@ -58,11 +58,16 @@
     }
     button:hover {
     cursor: pointer;
+    background-color: peachpuff;
 }
 /* button style end */
 /* operator */
 .operator {
 background-color: aqua;
 color: black;
+}
+.operator:hover{
+    cursor: pointer;
+    background-color: aqua;
 }
 /* operator style end */
