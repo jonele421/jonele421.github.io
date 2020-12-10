@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Lite Javascript</h2>
+
+
+<button type="button" onclick="kung()">Välkommen</button>
+<script>
+function kung() {
+    alert("Välkommen");
+}
+
+</script>
+<br><br><br><br>
+<button type="button" onclick="document.getElementById('fhem').style.color='green'">
+Byt färg
+</button>
+<button type="button" onclick="document.getElementById('fhem').style.fontSize='26px'" >
+    Byt storlek
+</button>
+
+
+<p id="fhem">Hej och välkommen till min sida. <br>
+    Visste du att du kan byta både storlek och färg på denna <br>
+    text? Testa med knapparna ovan.</p>
+    <br>
+    <button type="button" onclick="document.getElementById('fhem').style.color='black'">
+        Tryck för att få tillbaka den original färgen
+    </button>
+    <button type="button" onclick="document.getElementById('fhem').style.fontSize='16px'">
+Tryck för att få tillbaka den originala storleken
+
+    </button>
+<br><br>
+<br><br>
+<button type="button" onclick=document.body.style.backgroundColor="aqua";>Ändra bakgrundsfärg</button>
+<button type="button" onclick=document.body.style.backgroundColor="white";>Ändra tilbaka</button>
+
+
+<br><br><br><br>
+
+<button type="button"
+onclick="document.getElementById('1').innerHTML = 5">
+Tryck här för att få 5</button>
+
+<p id="1"></p>
+
+<button type="button"
+onclick="document.getElementById('1').innerHTML = 55">
+Tryck här om du vill ha 55 istället</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<button type="button"
+onclick="document.getElementById('bild1').src= 'hapysanta.jpg'">Happy</button>
+
+<img id="bild1" src="hapysanta.jpg">
+
+<button type="button"
+onclick="document.getElementById('bild1').src= 'creepsanta.jpg'">Creepy</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+</body>
+</html> 
