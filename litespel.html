@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    canvas {
+        
+        border: 1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }
+</style>
+</head>
+
+
+<body onload="startgame()">
+    
+
+
+
+    
+<script>
+
+var fyrkant;
+
+function startgame() {
+ritduk.start();
+fyrkant = new komponent(30, 30, "green", 10, 120);
+
+
+}
+
+var ritduk = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 500;
+        this.canvas.height = 400;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    }
+
+}
+
+function komponent(width,height,color,x,y){
+this.width=width;
+this.height=height;
+this.x=x;
+this.y=y;
+ctx=ritduk.context;
+ctx.fillStyle=color;
+ctx.fillRect(this.x,this.y,this.width,this.height);
+
+}
+
+</script>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

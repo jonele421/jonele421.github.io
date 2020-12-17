@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Gissa tal!</title>
+<link rel="stylesheet" href="gissa.css">
+</head>
+<body>
+    <a href="index.html">Hem</a>
+    <script language="javascript" >
+        var tanke = Math.floor(1+Math.random()*20);
+
+    function gissa(){
+        var tal;
+         tal = document.getElementById("tal").value; 
+    if(tal==tanke){
+    window.alert("Du hade rätt");
+    tanke = Math.floor(Math.random() * 20 + 1);
+    }else{
+        if(tal>tanke){
+window.alert("För högt");
+    }
+}
+if(tal<tanke)
+window.alert("För lågt!");
+}
+
+    </script>
+    
+<h2>Jag tänker på ett tal mellan 1-20. Kan du gissa vilket det är?</h2>
+<form action="">
+<label for="tal"></label>
+<input type="number" name="tal" id="tal"><br>
+
+<input type="button" value="Gissa!" onclick="gissa()">
+
+</form>
+
+</body>
+
+</html>

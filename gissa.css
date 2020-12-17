@@ -1,0 +1,21 @@
+body{
+    background:rgb(37, 14, 14);
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 6px;
+    border-style:solid;
+    border-color: rgb(32, 197, 219);
+    padding: 20px;
+    
+    }
+
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+color: skyblue;
+
+
+
+
+    }
