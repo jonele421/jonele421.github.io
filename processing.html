@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+</head>
+
+<body style="background-color:aqua;">
+    <a href="index.html">Hem</a>
+    <canvas id="myCanvas" width="2080" height="1920"> </canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        for (var e = 1; e < 10; e++) {
+            ctx.beginPath();
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "Black";
+            ctx.fillText("Övning 5-1 Övning större och större rektanglar", 1000, 400);
+            ctx.rect(20 * e + 940, 20 * e, 20 * e, 20 * e);
+            ctx.strokeStyle = "black";
+            ctx.stroke();
+            ctx.fillStyle = "white";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+
+        for (var r = 1; r < 40; r++) {
+            ctx.beginPath();
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "Black";
+            ctx.fillText("Övning 5-4 Linjemönster", 0, 500);
+            ctx.moveTo(0, 400);
+            ctx.lineTo(10 * r, 0);
+            ctx.moveTo(400, 400);
+            ctx.lineTo(10 * r, 0);
+            ctx.strokeStyle = "black";
+            ctx.stroke();
+            ctx.closePath();
+        }
+
+        for (var i = 0; i < 10; i++) {
+
+            ctx.beginPath();
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "Black";
+            ctx.fillText("Övning 5-6 Rita staplar", 600, 140);
+            ctx.rect(20 * i + 600, 0, 10, 10 * i + 10);
+            ctx.fillStyle = "black";
+            ctx.fill();
+            ctx.closePath();
+
+
+
+        }
+
+
+
+
+    </script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
