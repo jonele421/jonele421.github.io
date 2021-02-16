@@ -1,0 +1,35 @@
+body{
+background-color: burlywood;
+
+}
+
+#div1{
+background-color: blueviolet;
+padding: 14px;
+}
+
+#div1 a{
+margin-left: 5%;
+color: black;
+font-size: 20px;
+text-decoration: none;
+padding: 14px 16px;
+}
+
+#div1 a:hover{
+    background-color: aqua;
+    
+
+}
+
+@media only screen and (max-width: 800px){
+#div1 a{
+    padding: 0;
+}
+#div1{
+    padding: 0;
+}
+
+
+}
+
