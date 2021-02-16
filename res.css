@@ -1,0 +1,28 @@
+
+body{
+
+display: flex;
+
+}
+
+#div1{
+    width: 100%;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
+#div2{
+    width: 100%;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#div3{
+    width: 100%;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
