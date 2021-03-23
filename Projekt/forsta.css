@@ -84,7 +84,7 @@ background-color: #074f1a;
 
 }
 
-#footerbox{
+.footerbox{
   margin-top: 1%;
   width: 20%;
   margin-left: 4%;
@@ -94,14 +94,14 @@ background-color: #074f1a;
   
   }
 
-  #footerbox h3{
+  .footerbox h3{
   padding: 0px;
   padding-bottom: 10px;
   
   
   }
 
-  #footerbox a{
+  .footerbox a{
     text-decoration: none;
     color: #B4895D;
     display: block;
@@ -111,7 +111,7 @@ background-color: #074f1a;
 
   }
 
-  #footerbox a:hover{
+  .footerbox a:hover{
     color: #f5be87;
 
   }
