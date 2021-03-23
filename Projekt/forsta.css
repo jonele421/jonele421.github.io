@@ -1,0 +1,165 @@
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+background-color: white;
+background-image: url(hej.png);
+}
+
+#h11{
+font-family: sans-serif;
+font-size: 100px;
+display: inline;
+color: white;
+background-image: url(brun.png);
+border-radius: 70px;
+padding: 20px;
+margin-left: 16%;
+
+}
+
+#div1{
+  margin-top: 2%;
+  background-color: #243a29;
+  position: sticky;
+  top: 0;
+}
+
+footer{
+  margin-right: -12.5%;
+  margin-left: -12.5%;
+  height: 400px;
+background-image: url(gron.png);
+background-repeat: no-repeat;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    
+  }
+  
+  li {
+    float: left;
+  
+  }
+  
+  li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    font-family:sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  li a:hover{
+      background-color: #1b2e20;
+  }
+
+  li.active{
+background-color: #074f1a;
+
+  }
+
+  #img img{
+    display: inline;
+    margin-left: 10%;
+
+  }
+
+  h3{
+    padding: 10px;
+    color: #B4895D;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    margin: 0px;
+
+}
+
+#footerbox{
+  margin-top: 1%;
+  width: 20%;
+  margin-left: 4%;
+  height: 400px;
+  float: left;
+  text-align: center;
+  
+  }
+
+  #footerbox h3{
+  padding: 0px;
+  padding-bottom: 10px;
+  
+  
+  }
+
+  #footerbox a{
+    text-decoration: none;
+    color: #B4895D;
+    display: block;
+    margin-top: 4%;
+    font-family: sans-serif;
+    font-size: 16px;
+
+  }
+
+  #footerbox a:hover{
+    color: #f5be87;
+
+  }
+
+  #content{
+    height: 400px;
+    background-image: url(svart.png);
+    background-repeat: repeat;
+  }
+
+  #content h2{
+    margin: 0;
+   color: salmon;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 80px;
+   
+  }
+
+  #content a{
+    text-decoration: none;
+    color: salmon;
+    font-family: sans-serif;
+    font-size: 80px;
+
+  }
+
+  #content a:hover{
+    color: #f5be87;
+
+
+  }
+
+
+
+  @media screen and (max-width: 1300px) {
+    #h11{
+      font-size: 60px;
+  
+    }
+
+  }
+
+  @media screen and (max-width: 900px) {
+    #h11{
+      display: block;
+      font-size: 40px;
+      
+    }
+    
+      }
