@@ -117,12 +117,14 @@ background-color: #074f1a;
 
   }
 
+
   #content{
     
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-image: url(green.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   #content h2{
@@ -208,5 +210,27 @@ background-color: #074f1a;
 
 
 
+
+
+
+      }
+
+      @media screen and (max-width: 400px) {
+
+        .footerbox h3{
+          font-size: 10px;
+          
+          
+          }
+
+          #div1{
+            position: relative;
+
+          }
+
+          .footerbox a{
+            font-size: 8px;
+        
+          }
 
       }
