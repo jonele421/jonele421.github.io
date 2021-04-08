@@ -75,6 +75,25 @@ background-repeat: no-repeat;
   margin-left: 2%;
 }
 
+#findus{
+  display: inline;
+  background-color: #243a29;
+}
+
+#findus p{
+  background-color: #243a29;
+  padding: 15px 15px;
+  margin-top: 0;
+  font-family: sans-serif;
+  color: #B4895D;
+  font-size: 20px;
+}
+
+#findusmap{
+  height: 500px;
+  width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -328,6 +347,15 @@ background-color: #074f1a;
       
           }
 
+          #findus p{
+            font-size: 14px;
+          }
+
+          #findusmap{
+            height: 300px;
+
+          }
+
           #questions h2{
             font-size: 20px;
 
@@ -365,6 +393,10 @@ background-color: #074f1a;
           .footerbox a{
             font-size: 8px;
         
+          }
+
+          .footerbox p{
+            font-size: 8px;
           }
 
          
