@@ -30,8 +30,8 @@ footer{
   margin-right: -12.5%;
   margin-left: -12.5%;
   height: 400px;
-background-image: url(pictures/gron.png);
-background-repeat: no-repeat;
+  background-image: url(pictures/gron.png);
+  background-repeat: no-repeat;
 }
 
 #rcontent{
@@ -40,10 +40,7 @@ background-repeat: no-repeat;
   background-repeat: repeat;
 }
 
-#contentM p{
-  color: white;
-  background-color: #B4895D;
-}
+
 
 #questions{
   background-color: #243a29;
@@ -53,11 +50,31 @@ background-repeat: no-repeat;
 
 }
 
+#contentM p{
+  color: white;
+  background-color: #B4895D;
+}
 
 #contentM h2{
   color: white;
   background-color: #B4895D;
+  width: 50%;
+  text-align: center;
+  margin: auto;
 }
+
+#contentM .menu {
+  width: 50%;
+  margin: auto;
+  height: auto;
+}
+
+#contentM .menu p{
+  display: block;
+  width: 100%;
+
+}
+
 
 #rcontent h3{
   text-align: center;
@@ -177,6 +194,8 @@ background-color: #074f1a;
 
 
   }
+
+  
 
   .footerbox a:hover{
     color: #f5be87;
