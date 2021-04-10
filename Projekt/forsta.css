@@ -53,6 +53,8 @@ footer{
 #contentM p{
   color: white;
   background-color: #B4895D;
+  padding: 15px 15px;
+  font-family: sans-serif;
 }
 
 #contentM h2{
@@ -61,18 +63,20 @@ footer{
   width: 50%;
   text-align: center;
   margin: auto;
+  font-family: sans-serif;
+}
+
+#contentM h3{
+  color: white;
+  background-color: #B4895D;
+  padding: 10px 10px;
+  font-family: sans-serif;
 }
 
 #contentM .menu {
   width: 50%;
   margin: auto;
   height: auto;
-}
-
-#contentM .menu p{
-  display: block;
-  width: 100%;
-
 }
 
 
@@ -385,6 +389,14 @@ background-color: #074f1a;
 
           }
 
+          .footerbox #links a{
+            display: block;
+            margin-top: 0;
+
+          }
+
+
+
 
 
 
@@ -417,7 +429,8 @@ background-color: #074f1a;
           .footerbox p{
             font-size: 8px;
           }
-
+          
+          
          
 
       }
