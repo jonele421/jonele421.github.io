@@ -101,6 +101,34 @@ footer{
   background-color: #243a29;
 }
 
+#coffee{
+  font-family: sans-serif;
+
+
+}
+
+#coffee h2{
+  background-color: #B4895D;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 15px;
+  font-size: 28px;
+
+}
+
+#coffee p{
+  background-color: #B4895D;
+  color: white;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 15px;
+  font-size: 18px;
+}
+
 #findus p{
   background-color: #243a29;
   padding: 15px 15px;
@@ -395,7 +423,16 @@ background-color: #074f1a;
 
           }
 
-
+          #coffee h2{
+            padding: 10px 10px;
+            font-size: 20px;
+          
+          }
+          
+          #coffee p{
+            padding: 10px 10px;
+            font-size: 14px;
+          }
 
 
 
