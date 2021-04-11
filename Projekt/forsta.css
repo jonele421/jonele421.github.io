@@ -27,11 +27,11 @@ text-align: center;
 }
 
 footer{
-  margin-right: -12.5%;
   margin-left: -12.5%;
+  margin-right: -12.5%;
   height: 400px;
   background-image: url(pictures/gron.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 #rcontent{
