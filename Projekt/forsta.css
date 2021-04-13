@@ -83,6 +83,11 @@ footer{
   height: auto;
 }
 
+#text p{
+  font-family: sans-serif;
+
+
+}
 
 #rcontent h3{
   text-align: center;
@@ -153,6 +158,8 @@ ul {
    
     
   }
+
+
   
   li {
     float: left;
@@ -436,7 +443,12 @@ background-color: #074f1a;
             font-size: 14px;
           }
 
-
+          #text p{
+            font-size: 14px;
+            
+          
+          }
+          
 
 
       }
@@ -467,6 +479,12 @@ background-color: #074f1a;
 
           .footerbox p{
             font-size: 8px;
+          }
+
+          #text p{
+            font-size: 10px;
+            
+          
           }
           
           
