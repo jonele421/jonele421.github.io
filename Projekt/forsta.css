@@ -83,7 +83,7 @@ footer{
   height: auto;
 }
 
-#text p{
+#form #text p{
   font-family: sans-serif;
   word-break: break-all;
 }
