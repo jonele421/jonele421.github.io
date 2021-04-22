@@ -1,7 +1,7 @@
 body{
   margin-left: 10%;
   margin-right: 10%;
-background-color: green;
+background-color: white;
 background-image: url(pictures/hej.png);
 }
 
@@ -251,10 +251,6 @@ background-color: #074f1a;
     font-family: sans-serif;
 
   }
-
-#form #text{
-  width: 50%;
-}
 
   #notdone{
     margin-top: 20%;
