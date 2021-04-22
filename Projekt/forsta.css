@@ -85,8 +85,7 @@ footer{
 
 #text p{
   font-family: sans-serif;
-
-
+  word-break: break-all;
 }
 
 #rcontent h3{
